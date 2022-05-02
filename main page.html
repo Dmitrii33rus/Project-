@@ -11,42 +11,80 @@
     <header class="header">
        <div class="header_top">
            <div class="container">
-               <div class="header_city">
-                   <div class="city_link citySelectLink">
-                       <span class="city_label">
-                           "Владимир"
-                       </span>   
-                   </div>
+               <div class="city-select_head">
+            <div class="city-select_search">
+                <form action="sity" method="post" style="display: none;">
+               <input type="hidden" name="city_name" value="name">
+                </form>
+                <form action="sity_filter" class="city_filter">
+                    <input type="text" placeholder="Выберите населённый пункт" class="city-select_input" name="q">
+                    <button class="city-select_button">
+                        <svg class="city_select_button">
+    
+                        </svg>
+                    </button>
+                </form>
+            </div>  
+                <div class="city_selected">
+                    <svg class="icon_sity-selected">
+
+                    </svg>
+                    <span>"Владимир"</span>
+                </div>
+            </div>
+                <div class="city-select_body">
+                    <div class="city-select_grid" id="city-list">
+                        <div class="city-slelect_element">
+                            <div class="city-select_label">"ВА"</div>
+                            <ul class="city-select_list">
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                    <div class="header_social">
                        <a rel="nofollow" href="https://www.youtube.com" class="header_social" target="blank">
                            <svg class="icon">
-
+                           <img src="image/logo-youtube-nouveau-design.jpg">
                            </svg>
                        </a>
                        <a rel="nofollow" href="https://www.rutube.ru" class="header_social" target="blank">
                            <svg class="icon">
-
+                           <img src="image/rutube-0fb2bc3817857ece488effb92e762b8ae0dfe227cfa44ac689a38ca0abaa7c01.png">
                            </svg>
                        </a>
                        <a rel="nofollow" href="https://t.me" class="header_social" target="blank">
                            <svg class="icon">
-
+                            <img src="image/p1_3294321_131948f0.png">
                            </svg>
                        </a>
                        <a rel="nofollow" href="https://vk.com" class="header_social" target="blank">
                            <svg class="icon">
-
+                            <img src="image/vk_parketservice.jpg">
                            </svg>
                        </a>
                        <a rel="nofollow" href="https://viber.com" class="header_social" target="blank">
                            <svg class="icon">
-
+                            <img src="image/1200px-Antu_viber.svg.png">
                            </svg>
                        </a>
                        <a rel="nofollow" href="https://whatsapp.com" class="header_social" target="blank">
                            <svg class="icon">
-
+                            <img src="image/app1.jpg">
                            </svg>
                        </a>
                 </div>
